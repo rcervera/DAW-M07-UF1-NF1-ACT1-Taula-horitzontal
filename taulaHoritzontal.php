@@ -1,11 +1,12 @@
+<table border=1>
+<tr>
 <?php
-   $i=1;
-   echo "<table border=1><tr>";
-   while($i<=10) {
-       echo "<td>$i</td>";
-       $i++;
+   $final = 10;
+   for($i=1;$i<=$final;$i++) {
+	echo "<td>$i</td>";
    }
-   echo "</tr></table>";
-
+  
 ?>
+</tr>
+</table>
 
